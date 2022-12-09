@@ -5,7 +5,7 @@
     <classes>
       <class name="pro_gitbranch.pro5.MatchUp">
         <methods>
-          <include name="test1"/>
+          <include name="test2"/>
         </methods>
       </class> <!-- pro_gitbranch.pro5.MatchUp -->
     </classes>

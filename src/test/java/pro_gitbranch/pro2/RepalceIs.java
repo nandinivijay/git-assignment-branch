@@ -43,15 +43,24 @@ public class RepalceIs {
 		String str = "is test";
 		String ans = replaceis(str);
 		System.out.println(ans);
+		String demo = replace2(str);
+		System.out.println(demo);
 		String exp = "is not test";
 		Assert.assertEquals(ans, exp);
 	}
 
+	private String replace2(String str) {
+		String res = str.replaceAll(" is ", " demo is not ");
+		return res;
+	}
+
 	@Test
 	public void test2() {
-		String str = "This  test";
+		String str = "This test";
 		String ans = replaceis(str);
 		System.out.println(ans);
+		String demo = replace2(str);
+		System.out.println(demo);
 		String exp = "This test";
 		Assert.assertEquals(ans, exp);
 	}
@@ -61,6 +70,8 @@ public class RepalceIs {
 		String str = "this is right";
 		String ans = replaceis(str);
 		System.out.println(ans);
+		String demo = replace2(str);
+		System.out.println(demo);
 		String exp = "this is not right";
 		Assert.assertEquals(ans, exp);
 	}
@@ -70,6 +81,8 @@ public class RepalceIs {
 		String str = "is is";
 		String ans = replaceis(str);
 		System.out.println(ans);
+		String demo = replace2(str);
+		System.out.println(demo);
 		String exp = "is not is not";
 		Assert.assertEquals(ans, exp);
 	}

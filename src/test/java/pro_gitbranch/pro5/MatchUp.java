@@ -8,8 +8,9 @@ public class MatchUp {
 		int res = 0;
 		for (int i = 0; i < a.length; i++) {
 
-
-			if (a[i] != "" && b[i] != "" && a[i].charAt(0) == b[i].charAt(0)) {
+			if (a[i].contains(" ") && b[i].contains(" ") || (a[i] == "" && b[i] == "")) {
+				res++;
+			} else if (a[i] != "" && b[i] != "" && a[i].charAt(0) == b[i].charAt(0)) {
 					res++;
 					System.out.println(a[i].charAt(0) + " " + b[i].charAt(0));
 
@@ -29,11 +30,11 @@ public class MatchUp {
 
 	@Test
 	public void test2() {
-		String[] a = { "aa", "bb", "cc" };
+		String[] a = { "", "bb", "cc" };
 		String[] b = { "", "", "ccc" };
 		int ans = matchup(a, b);
 		System.out.println(ans);
-		Assert.assertEquals(ans, 1);
+		Assert.assertEquals(ans, 2);
 	}
 
 	@Test
