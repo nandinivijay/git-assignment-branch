@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-09T19:42:36 CST" name="Default suite" finished-at="2022-12-09T19:42:36 CST" duration-ms="104">
+  <suite started-at="2022-12-09T20:05:46 CST" name="Default suite" finished-at="2022-12-09T20:05:46 CST" duration-ms="85">
     <groups>
     </groups>
-    <test started-at="2022-12-09T19:42:36 CST" name="Default test" finished-at="2022-12-09T19:42:36 CST" duration-ms="104">
-      <class name="forkproject.array22">
-        <test-method signature="testrun1()[pri:0, instance:forkproject.array22@6e171cd7]" started-at="2022-12-09T19:42:36 CST" name="testrun1" finished-at="2022-12-09T19:42:36 CST" duration-ms="18" status="PASS">
+    <test started-at="2022-12-09T20:05:46 CST" name="Default test" finished-at="2022-12-09T20:05:46 CST" duration-ms="85">
+      <class name="forkproject.specialscore">
+        <test-method signature="testrun1()[pri:0, instance:forkproject.specialscore@402bba4f]" started-at="2022-12-09T20:05:46 CST" name="testrun1" finished-at="2022-12-09T20:05:46 CST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testrun1 -->
-        <test-method signature="testrun2()[pri:0, instance:forkproject.array22@6e171cd7]" started-at="2022-12-09T19:42:36 CST" name="testrun2" finished-at="2022-12-09T19:42:36 CST" duration-ms="2" status="PASS">
+        <test-method signature="testrun2()[pri:0, instance:forkproject.specialscore@402bba4f]" started-at="2022-12-09T20:05:46 CST" name="testrun2" finished-at="2022-12-09T20:05:46 CST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testrun2 -->
-      </class> <!-- forkproject.array22 -->
+      </class> <!-- forkproject.specialscore -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
