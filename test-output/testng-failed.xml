@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pro_gitbranch.pro2.RepalceIs">
+      <class name="forkproject.ReplaceString">
         <methods>
-          <include name="test1"/>
+          <include name="run1"/>
         </methods>
-      </class> <!-- pro_gitbranch.pro2.RepalceIs -->
+      </class> <!-- forkproject.ReplaceString -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
